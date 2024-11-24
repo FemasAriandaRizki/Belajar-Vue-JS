@@ -1,7 +1,10 @@
-<script setup></script>
+<script setup>
+import MainButton from './components/MainButton.vue'
+</script>
 
 <template>
-    <h1>Hello World</h1>
+  <MainButton></MainButton>
+  <h1>Hello World</h1>
 </template>
 
 <style scoped></style>
